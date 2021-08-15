@@ -14,9 +14,4 @@ app.use(
     express.static(path.join(__dirname, "public"), { maxAge: 31557600000 })
 );
 
-
-app.get('/', (req: Request, res: Response, next: NextFunction) => {
-    res.send('Ping');
-});
-
-app.listen(4000, () => console.log('Server running'));
+export default app;
