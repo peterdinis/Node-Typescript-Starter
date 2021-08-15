@@ -6,3 +6,4 @@ Stack:
 - testing: jest
 - views: ejs
 - add example for controllers and routing
+- add static files
