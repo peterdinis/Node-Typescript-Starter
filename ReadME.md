@@ -1,6 +1,6 @@
-## Node Typescript starter template
+## Node Typescript example template
 
-Simple starter template for node-typescript apps
+Simple example template for node-typescript apps
 
 Stack:
 - package manager pnpm
