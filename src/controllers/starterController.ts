@@ -1,5 +1,5 @@
 import { Response, Request} from "express";
 
 export const starterFn = (req: Request, res: Response) => {
-    res.send("WORK");
+    res.render("home");
 }
