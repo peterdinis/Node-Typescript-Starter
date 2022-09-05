@@ -3,7 +3,7 @@
 Simple example template for node-typescript apps
 
 Stack:
-- package manager pnpm
+- package manager npm
 - testing: jest + jest-extended
 - views: ejs
 - Add public css and js files
