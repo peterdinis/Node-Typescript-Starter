@@ -1,7 +1,7 @@
 import {starterFn} from "../controllers/starterController";
-import * as express from "express";
+import express, {Router} from "express";
 
-const router = express.Router();
+const router: Router = express.Router();
 
 router.get("/", starterFn);
 
