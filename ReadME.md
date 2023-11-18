@@ -7,3 +7,4 @@ Stack:
 - testing: jest + jest-extended
 - add example for controllers and routing
 - Add .env file
+- Add prettier config
