@@ -2,6 +2,7 @@ declare global {
   namespace NodeJS {
     interface ProcessEnv {
       RANDOM_VARIABLE: string;
+      PORT: number;
     }
   }
 }
