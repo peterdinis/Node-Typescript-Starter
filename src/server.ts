@@ -6,8 +6,10 @@ if (process.env.NODE_ENV === 'development') {
     app.use(errorHandler());
 }
 
-const server = app.listen(process.env.PORT, () => {
-    console.log(chalk.green.inverse('Applikácia beží na porte 4000'));
+const PORT = process.env.PORT as unknown as number;
+
+const server = app.listen(PORT, () => {
+    console.log(chalk.green.inverse(`Applikácia beží na porte ${PORT}`));
 });
 
 export default server;
