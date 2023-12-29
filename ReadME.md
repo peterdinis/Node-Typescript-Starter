@@ -3,8 +3,9 @@
 Simple example template for node-typescript apps
 
 Stack:
-- package manager npm
-- testing: jest + jest-extended
-- add example for controllers and routing
-- Add .env file
-- Add prettier config
+
+-   package manager npm
+-   testing: jest + jest-extended
+-   add example for controllers and routing
+-   Add .env file
+-   Add prettier config
