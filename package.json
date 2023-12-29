@@ -1,6 +1,6 @@
 {
     "name": "node-typescript-start",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "",
     "main": "server.ts",
     "scripts": {
@@ -11,7 +11,7 @@
         "format:fix": "prettier --write --ignore-path .gitignore ."
     },
     "keywords": [],
-    "author": "",
+    "author": "Peter Dinis",
     "license": "ISC",
     "dependencies": {
         "chalk": "^4.1.2",
