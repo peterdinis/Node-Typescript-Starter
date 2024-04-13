@@ -4,8 +4,8 @@ Simple example template for node-typescript apps
 
 Stack:
 
--   package manager npm
--   testing: jest + jest-extended
+-   package manager bun
+-   testing: bun:test
 -   add example for controllers and routing
 -   Add .env file
 -   Add prettier config

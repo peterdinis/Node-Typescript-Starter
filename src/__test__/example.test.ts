@@ -1,5 +1,11 @@
-describe('Sample Test', () => {
-    it('should test that true === true', () => {
-        expect(true).toBe(true);
-    });
+import { test, expect, describe } from "bun:test";
+
+describe("math", () => {
+  test("add", () => {
+    expect(2 + 2).toEqual(4);
+  });
+
+  test("multiply", () => {
+    expect(2 * 2).toEqual(4);
+  });
 });
