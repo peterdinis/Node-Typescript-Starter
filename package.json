@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "start": "node ./dist/server.js",
-    "dev": "nodemon --config nodemon.json ./src/server.ts",
+    "dev": "bun ./src/server.ts",
     "test": "jest",
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore ."
