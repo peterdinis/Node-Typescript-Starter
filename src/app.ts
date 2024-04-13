@@ -1,6 +1,6 @@
-import express, { Application } from 'express';
-import compression from 'compression';
-import startRoutes from './routes/staterRoutes';
+import compression from "compression";
+import express, { type Application } from "express";
+import startRoutes from "./routes/staterRoutes";
 
 const app: Application = express();
 

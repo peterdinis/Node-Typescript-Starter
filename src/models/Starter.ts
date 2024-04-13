@@ -1,1 +1,1 @@
-console.log('Your db model go here');
+console.log("Your db model go here");
