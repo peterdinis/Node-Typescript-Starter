@@ -7,5 +7,5 @@ Stack:
 -   package manager bun
 -   testing: bun:test
 -   add example for controllers and routing
--   Add .env file
+-   Add example .env file
 -   Add biome config
